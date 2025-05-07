@@ -3,9 +3,8 @@ import { SiExpress, SiGithub, SiMongodb, SiNodedotjs, SiPython, SiReact } from "
 
 export default function SkillsTools() {
   return (
-    <div className="bg-white text-white py-2 sm:pt-32">
-      <div className="mx-auto w-full p-6 lg:-8 border-t bg-black">
-        <h2 className="text-center text-lg font-semibold capitalize md:text-3xl fon-poppins">my Stack</h2>
+    <div className="bg-white text-white sm:pt-32">
+      <div className="mx-auto w-full p-6 lg:-8 border-t bg-black py-2">
         <div className="mx-auto my-10 flex justify-around">
           {/* MongoDB */}
           <div className="col-span-2 flex justify-center lg:col-span-1 flex-col">

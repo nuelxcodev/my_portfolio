@@ -1,15 +1,18 @@
+import React from "react";
 import HeroSection from "../../component/HeroSection";
 import AboutMe from "../../component/About";
 import SkillsTools from "../../component/Skill";
 import Projecjs from "../../component/Projecjs";
+import Footer from "../../component/Footer";
 
 export default function Home() {
   return (
-    <div>
+    <React.Fragment>
       <HeroSection />
       <AboutMe />
       <SkillsTools />
       <Projecjs />
-    </div>
+      <Footer/>
+    </React.Fragment>
   );
 }
