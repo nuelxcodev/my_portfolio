@@ -39,6 +39,10 @@ export default function HeroSection() {
               <span className="text-black font-mono text-lg">Nuelcode</span>
             </a>
           </div>
+
+<div>
+hi
+</div>
           <div className="flex lg:hidden">
             <button
               type="button"
